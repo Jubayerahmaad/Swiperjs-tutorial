@@ -1,0 +1,118 @@
+/* Site Variables link Color, font etc */
+
+:root{
+    --primarycolor : #E61C5D;
+    --graytext : #808080;
+    --blacktext : #112B3C;
+    --whitetext : #fff;
+    --yollow : #FFBD39;
+    --box-shadow: 0px 12px 40px 0px rgba(0, 0, 0, 0.04);
+}
+
+/* Comon Css  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Barlow', sans-serif;
+    background: #f5f5f5;
+}
+.container {
+    width: 1145px;
+    margin: 0 auto;
+}
+.text-title{
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--blacktext);
+}
+.sub-title{
+    font-size: 16px;
+    color: var(--primarycolor);
+    font-weight: 700;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+}
+
+/* Tour Place Css */
+
+.tour-place-section{
+    padding: 60px 0px;
+}
+.tour-place-item{
+    margin: 76px 0px;
+    box-shadow: var(--box-shadow);
+    border-radius: 16px;
+    background-color: var(--whitetext);
+}
+.tour-place-img img{
+    width: 100%;
+}
+.tour-title .text-title{
+    max-width: 591px;
+}
+
+.tour-content{
+    padding: 20px 24px 15px 24px;
+}
+.tour-content h3{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 132%;
+    color: var(--blacktext);
+}
+.tour-content p{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 8px 0px;
+}
+.place-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0px;
+}
+.place-footer span.price {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 132%;
+    color: var(--primarycolor);
+}
+.place-footer span{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 132%;
+    color: var(--graytext);
+}
+/* tour section css end  */
+
+/* Over right */
+.swiper-button-next {
+    right: 10%;
+    left: unset;
+    top: 13%;
+}
+
+.swiper-button-prev {
+    left: unset;
+    right: 16%;
+    top: 13%;
+}
+
+ .swiper-button-prev , .swiper-button-prev {
+    color: var(--PrimeryColor);
+}
+ .swiper-button-prev span, .swiper-button-next span{
+    color: var(--PrimeryColor);
+}
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 16px;
+    background-color: #e61c5c13;
+    padding: 15px 19px;
+    border-radius: 30px;
+    color: var(--primarycolor);
+}
